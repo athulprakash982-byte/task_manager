@@ -7,6 +7,11 @@ def main():
     print(task1.show_task())
     print(task2.show_task())
 
+    # Edit the task
+    print(task1.edit_task("Master Python", "Learn OOP and advanced concepts"))
+    print("After editing:")
+    print(task1.show_task())
+
     print(task1.mark_complete())
 
     print(task1.show_task())
