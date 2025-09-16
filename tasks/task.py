@@ -10,4 +10,9 @@ class Task:
     def show_task(self):
         status="✓" if self.complted else "✗"
         return f"[{status}] {self.name}: {self.description}"
+    
+    def edit_task(self, new_name, new_description):
+    self.name = new_name
+    self.description = new_description
+    return f"Task updated to: {new_name} - {new_description}"
         
