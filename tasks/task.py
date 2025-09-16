@@ -12,7 +12,7 @@ class Task:
         return f"[{status}] {self.name}: {self.description}"
     
     def edit_task(self, new_name, new_description):
-    self.name = new_name
-    self.description = new_description
-    return f"Task updated to: {new_name} - {new_description}"
+        self.name = new_name
+        self.description = new_description
+        return f"Task updated to: {new_name} - {new_description}"
         
