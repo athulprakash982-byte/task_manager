@@ -1,7 +1,7 @@
 from tasks.task import Task
 def main():
     print("=== Task Manager ===")
-    task1=Task("Learn python","Complete oop")
+    task1=Task("Learn python from ai","Complete oop")
     task2=Task("Learn swim","deep dive")
 
     print(task1.show_task())
